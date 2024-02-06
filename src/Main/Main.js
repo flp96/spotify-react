@@ -28,7 +28,7 @@ const Main = () => {
         <div id="result-playlists">
           <div class="playlist">
             
-            <h1 id="greeting"></h1>
+            <h1 id="greeting">Bom dia</h1>
             <h2 class="session">Navegar por todas as seções</h2>
           </div>
 

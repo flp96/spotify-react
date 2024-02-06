@@ -24,6 +24,7 @@
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
+    margin-left: 22px;
   }
   
   .playlist .session {
@@ -52,15 +53,9 @@
   .offer__list-item {
     display: grid;
     justify-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 16px;
-    gap: 16px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 24px;
     margin-bottom: 16px;
-  
-    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
-    display: grid;  /* define o modelo de layout do elemento como uma grade */
-    gap: 16px;
-    grid-gap: 32px;  /* não é usado mais */
     margin: 0 auto;
   }
   

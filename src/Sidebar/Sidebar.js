@@ -9,7 +9,7 @@ import { faBook } from "@fortawesome/free-solid-svg-icons";
 import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 
-const Sidebar = () => {
+export const Sidebar = () => {
     return (
         <div class="sidebar">
     <nav class="sidebar__navigation">
@@ -68,4 +68,3 @@ const Sidebar = () => {
     )
 }
 
-export default Sidebar;

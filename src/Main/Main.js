@@ -19,7 +19,7 @@ import card15 from '../assets/playlist/15.jpeg';
 
 import '../styles/Vars.css';
 
-const Main = () => {
+export const Main = () => {
     return (
 <main>
     <div class="main-container">
@@ -185,5 +185,3 @@ const Main = () => {
   </main>
     )
 }
-
-export default Main;
